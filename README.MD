@@ -20,7 +20,7 @@ Você pode *enfatizar* palavras usando asteriscos ou underscores. Exemplo: **neg
 
 ### Links
 
-[Isso é um link para o Google](https://www.google.com/)
+[MIT License | Choose a License](https://choosealicense.com/licenses/mit/)
 
 ### Código
 
