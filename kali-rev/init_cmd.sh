@@ -33,6 +33,13 @@ zip filezipadname.zip filetozip.ext
 unzip filezipadname.zip
 tar -cvzf filee.tar fileto.ext #compressed verbose zip file
 tar -xvzf filee.tar
+#Read files
+cat filename # show content file
+more file # in case large files to manipulate the showing direction to down
+less file # just to change direction of showing
+head -3 file # to show the first 3 lines
+tail -3 file # to show the last 3 lines
+tail -f file # to show in real time
 
 #searching files
 find /directory/to/begining *.txt # to seaching all that have .txt
@@ -43,3 +50,9 @@ locate *.txt | grep novo # in the ouput of locate Global regular Expression Prin
 sudo groupadd namegropchoice #to created new group
 sudo useradd username # to create new user
 sudo gpasswd -a username namegropchoice # to add user to group
+
+#redes
+hostname # name machine
+ifconfig # ips 
+if addr show # in case ifconfig notworking try this
+sudo wget urlfile #to sve file web
